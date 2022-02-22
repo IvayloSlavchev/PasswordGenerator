@@ -1,0 +1,142 @@
+body{
+    background-color: #3a4e6e;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 400px;
+    font-size: 30px;
+}
+#logDate{
+    position: relative;
+    left: -400px;
+    top: 50px;
+
+}
+h1{
+    position: relative;
+    top: -10px;
+    left: 90px;
+}
+h3{
+    position: relative;
+    left: 90px;
+    top: -20px;
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(1fr, 3);
+    grid-template-rows: repeat(minmax(150px, auto));
+}
+#generate-btn{
+    display: flex;
+    width: 40%;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    left: 50px;
+}
+#answers{
+    display: grid;
+    grid-template-columns: repeat(1fr, 4);
+    grid-template-rows: repeat(90px, auto);
+    grid-gap: 10px;
+    width: 30%;
+}
+#lowerCase{
+    padding: 20px;
+    position: relative;
+    left: -220px;
+    top: 99px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#UpperCase{
+   position: relative;
+   left: -220px;
+   top: 99px;
+   padding: 20px;
+   font-size: 30px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+#SymbolsCase{
+    position: relative;
+    left: 420px;
+    top: -76px;
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#EverythingCase{
+    position: relative;
+    left: 420px;
+    top: -76px;
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+button:hover{
+    background-color: lightgray;
+    text-decoration: underline;
+}
+nav{
+    background-color: #3a4e6e;
+    position: absolute;
+    top: 0px;
+    left: 800px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 40px;
+    text-align: center;
+}
+a.fb{
+    background: url(facebook.png) no-repeat center;
+    background-size: 80%;
+}
+a.tw{
+    background: url(twitter.gif) no-repeat center;
+    background-size: 80%;
+}
+a.in{
+    background: url(linkedIn.png) no-repeat center;
+    background-size: 80%;
+}
+.social a{
+    text-indent: -10000px;
+}
+.social{
+    max-width: 80px;
+    margin: 0 auto;
+}
+nav ul.social{
+    flex: 1 1 0;
+    display: flex;
+}
+.time input{
+    position: relative;
+    left: -400px;
+    top: 10px;
+    padding: 10px;
+    width: 10%;
+    font-size: 30px;
+    background-color: #3a4e6e;
+    border: none;
+    color: white;
+}
+
